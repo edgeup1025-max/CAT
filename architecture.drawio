@@ -1,0 +1,158 @@
+<mxfile host="65bd71144e">
+    <diagram id="SUXmnZjtQKihaZGqdrGZ" name="Page-1">
+        <mxGraphModel dx="2040" dy="2025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="DATA CLEANING/EDA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="-50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;FIND THE TYPE , (&lt;span style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Roboto, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;dichotomous or ploychotomous)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="-30" width="145" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.621;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="IF ELSE&amp;nbsp;&lt;div&gt;IF DICHOTOMOUS-&amp;gt; 2PL&lt;/div&gt;&lt;div&gt;ELSE -&amp;gt; GRM MODEL.&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="130" width="185" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="IF ESLSE&amp;nbsp;&lt;div&gt;IF DATAESET LEN &amp;lt;10000&lt;/div&gt;&lt;div&gt;ELSE DEEP LEARING&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-50" y="1020" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="CLASSICAL MACHIN LEARNING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="1180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;" edge="1" parent="1" source="28" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="DEEP LEARNING MODEL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-220" y="1190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="245" y="1480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="REWARD DATASET" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-30" y="1320" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="PRESISTENT" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="1250" width="115" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="31" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="REINFORCE MENT LEARNING" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="1810" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;entryX=0.538;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="28" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-166.79999999999995" y="1184.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="N_COMPONENTS IS INPUT SIZE,&lt;div&gt;HIDDEN SIZE DEPENDS ON INPUT SIZE,&lt;/div&gt;&lt;div&gt;if componeyes 20 then 64,&lt;/div&gt;&lt;div&gt;20-50 then 128&lt;/div&gt;&lt;div&gt;50-80 then 264&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-420" y="1320" width="260" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry y="300" width="660" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.947;entryY=0.213;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.289;exitY=0.758;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="51" source="7" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="187.5" y="33.579999999999984" as="targetPoint"/>
+                        <mxPoint x="296.2529797377831" y="-29.998665077473163" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;" edge="1" parent="51" source="7" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="517.5" y="60" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="2PL MODEL IRT&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="51">
+                    <mxGeometry x="27.5" y="10" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="GRM MODL (grade reponse model)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="51">
+                    <mxGeometry x="537.5" y="20" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;span style=&quot;&quot; data-end=&quot;195&quot; data-start=&quot;178&quot;&gt;psychometrics&lt;/span&gt;&amp;nbsp; statistical (probabilistic) models&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="51">
+                    <mxGeometry width="660" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-150" y="-150" width="215" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="COLLECT THE DATA&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="52">
+                    <mxGeometry x="40" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;DATA SHOULD BE&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;LIKERATA (1-5 SCALE)OR BINARY INPUTS (YES/NO)&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="52">
+                    <mxGeometry width="215" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="190" y="510" width="490" height="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="60" source="17" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;" edge="1" parent="60" source="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="60" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="SPEARMANR_CORR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="60">
+                    <mxGeometry x="20" y="20" width="163" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;" edge="1" parent="60" source="18" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="PCA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="60">
+                    <mxGeometry x="40" y="160" width="131.5" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="N_COMPONENT_90 OR 95" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="60">
+                    <mxGeometry x="53" y="320" width="130" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="curved=1;endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.983;exitY=0.585;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="60" source="21" target="18">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="336.29999999999995" as="sourcePoint"/>
+                        <mxPoint x="270.18499999999995" y="170" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="310" y="336.29999999999995"/>
+                            <mxPoint x="260" y="286.29999999999995"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;align=right;" vertex="1" parent="60">
+                    <mxGeometry width="490" height="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="FEATURE SELECTION" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="60">
+                    <mxGeometry x="270" y="20" width="190" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
