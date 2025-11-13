@@ -2,7 +2,6 @@ import json, os, subprocess
 from pathlib import Path
 
 CONFIG_PATH = Path(__file__).parent / "mlflow_config.json"
-
 with open(CONFIG_PATH) as f:
     cfg = json.load(f)
 

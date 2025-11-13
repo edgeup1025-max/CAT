@@ -9,7 +9,6 @@ from load_data import local_duckdb, irt_data_processor
 from preprocessing import Preprocessing
 from dependency import memory_cleanup
 from irt.PolychotomousIRT import GRM
-from feature_selection import run_feature_selection
 from Diagnostics import ParameterDiagnostics
 import mlflow
 import mlflow.data as md
@@ -190,13 +189,6 @@ if __name__ == "__main__":
                                                mlflow_log=True)
         mlflow.log_artifact(md_report)
         logger.info("Diagnostics report logged successfully.")
-
-        # ======================
-        # Stage 5: Feature Selection
-        # ======================
-        logger.info("Running feature selection (Spearman + PCA)...")
-        run_feature_selection(likert_df, SAVER_PATH, mlflow_active_run=run)
-        logger.info("Feature selection completed successfully.")
 
         # ======================
         # Stage 6: Dashboard + Cleanup
